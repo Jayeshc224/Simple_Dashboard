@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
@@ -11,25 +12,33 @@
         <!-- Sidebar -->
         <div class="sidebar">
             <h2>Dashboard</h2>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Communities</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
         </div>
 
         <!-- Header -->
         <div class="header">
-            <input type="text" placeholder="Search...">
-            <div class="user-info">
-                <p>Hi there, Morgan Oakley (@morgan)</p>
-            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..." />
+              </div>
+              <div class="user-info">
+                <img src="user-avatar.png" alt="User Avatar">
+                <span>Morgan Oakley (@morgan)</span>
+              </div>
+              <div class="header-buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+              </div>
         </div>
 
         <!-- Main Content -->
