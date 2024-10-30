@@ -107,7 +107,7 @@ body {
   .header-buttons button {
     margin-left: 10px;
     padding: 8px 12px;
-    background-color: #4CAF50;
+    background-color: #007acc;;
     color: white;
     border: none;
     border-radius: 4px;
@@ -257,4 +257,23 @@ body {
     font-size: 14px;
     color: #666;
     margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;             /* Full width within its container */
+           /* Comfortable padding */
+  margin: 10px 0;          /* Spacing between input fields */
+  border: 1px solid #ccc;  /* Light border */
+  border-radius: 4px;      /* Slightly rounded corners */
+  box-sizing: border-box;  /* Include padding in width calculation */
+  font-size: 16px;         /* Readable font size */
+  font-family: Arial, sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover/focus */
+}
+
+/* Focus effect to add a subtle glow */
+input[type="text"]:focus {
+  border-color: #3d91ff;   /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(61, 145, 255, 0.5); /* Light blue glow */
+  outline: none;           /* Remove default outline */
 }
